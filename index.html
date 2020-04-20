@@ -13,30 +13,27 @@
 	</p>
 	<form id="survey-form">
 		<label id="name-label">Name</label>
-		<input type="text" name="name" id="name" placeholder="John Do">
+		<input type="text" name="name" id="name" placeholder="John Do" required>
 
 		<label id="email-label">Email</label>
-		<input type="email" name="email" id="email" placeholder="email@email.com">
-		<!-- create formatting error -->
+		<input type="email" name="email" id="email" placeholder="email@email.com" required>
 
-		<label id="number-label">Number</label>
-		<input type="number" name="number" id="number" placeholder="123456">
-		<!-- create formatting error -->
-		<!-- create min/max error -->
-
+		<label id="number-label">Six Digit Number</label>
+		<input type="number" name="number" id="number" placeholder="123456" min="100000" max="999999" required>
+	
 		<select id="dropdown">
 			<option>XXX</option>
 			<option>YYY</option>
 			<option>ZZZ</option>
 		</select>
 
-		<input type="radio" name="radio-input">
-		<input type="radio" name="radio-input">
-		<input type="radio" name="radio-input">
+		<input type="radio" name="radio-input" value="111">111
+		<input type="radio" name="radio-input" value="222">222
+		<input type="radio" name="radio-input" value="333">333
 
-		<input type="checkbox" name="checkbox-input">
-		<input type="checkbox" name="checkbox-input">
-		<input type="checkbox" name="checkbox-input">
+		<input type="checkbox" name="checkbox-input" value="!!!">!!!
+		<input type="checkbox" name="checkbox-input" value="@@@">@@@
+		<input type="checkbox" name="checkbox-input" value="###">###
 
 		<textarea>Additional Comments</textarea>
 
