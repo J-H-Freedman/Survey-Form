@@ -1,0 +1,28 @@
+main {
+	background-color: #DDD;
+	color: #111;
+	font-family: sans-serif;
+	font-size: 1em;
+}
+
+#title {
+	text-align: center;
+}
+
+#opening {
+	padding: 25px 17.5%;
+}
+
+#survey-form {
+	background-color: #EEE;
+	color: #222;
+
+	margin: 2% 15%;
+	padding: 2.5% 5%;
+}
+
+#closing {
+	text-align: center;
+
+	padding: 25px;
+}
