@@ -9,30 +9,30 @@
 <body>
 <main>
 	<div id="opening">
-		<h1 id="title">Survey Survey</h1>
+		<h1 id="title">Surveying Survey</h1>
 		<p id="description">
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
 	</div>
 	<form id="survey-form">
-		<div id="name-div">
-			<label id="name-label">Name</label>
+		<div id="name-div" class="form-container">
+			<label id="name-label" class="question">Name</label>
 			<input type="text" name="name" id="name" placeholder="John Do" required>
 		</div>
-		<div id="email-div">
-			<label id="email-label">Email</label>
+		<div id="email-div" class="form-container">
+			<label id="email-label" class="question">Email</label>
 			<input type="email" name="email" id="email" placeholder="email@email.com" required>
 		</div>
-		<div id="dropdown-div">
-			<label id="dropdown-label">I am a...</label>
+		<div id="dropdown-div" class="form-container">
+			<label id="dropdown-label" class="question">I am a...</label>
 			<select id="dropdown">
 				<option value="student">Student</option>
 				<option value="hobbiest">Hobbyist</option>
 				<option value="professional">Professional</option>
 			</select>
 		</div>
-		<div id="radio-div">
-			<label id="radio-label">
+		<div id="radio-div" class="form-container">
+			<label id="radio-label" class="question">
 				Prefered Location
 			</label>
 			<label for="Historical">
@@ -47,11 +47,11 @@
 				<input type="radio" name="radio-input" value="Nature"> Nature Sites
 			</label>
 		</div>
-		<div id="checkbox-div">
+		<div id="checkbox-div" class="form-container">
 			<label id="checkbox-label">Which surveys can you perform</label>
 			
 			<label for="Landscape">
-					<input type="checkbox" name="checkbox-input" value="Landscape"> 
+					<input type="checkbox" name="checkbox-input" value="Landscape" class="question"> 
 					Landscape Survey
 			</label>
 			<label for="Field">
@@ -63,14 +63,14 @@
 				Surveillance
 			</label>
 		</div>
-		<div id="number-div">
-			<label id="number-label">Six Digit Number</label>
+		<div id="number-div" class="form-container">
+			<label id="number-label" class="question">Six Digit Number</label>
 			<input type="number" name="number" id="number" placeholder="123456" min="100000" max="999999" required>
 		</div>
 
-		<textarea>Additional Comments</textarea>
+		<textarea class="form-container">Additional Comments</textarea>
 
-		<input type="submit" name="submit" id="submit">
+		<input type="submit" name="submit" id="submit" class="form-container">
 	</form>
 	<div id="closing">
 		<p>

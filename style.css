@@ -5,6 +5,10 @@ main {
 	font-size: 1em;
 }
 
+label {
+	display: block;
+}
+
 #title {
 	text-align: center;
 }
@@ -25,4 +29,20 @@ main {
 	text-align: center;
 
 	padding: 25px;
+}
+
+.form-container {
+	display: block;
+	margin: .5em;
+	padding: .5em;
+}
+
+.question {
+	font-size: 1.5em;
+}
+
+@media (max-width: 600) {
+	#survey-form {
+		margin: 0px;
+	}
 }
